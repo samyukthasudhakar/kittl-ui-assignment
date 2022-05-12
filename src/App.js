@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import {FaTwitter} from "react-icons/fa"
+import {BsBookmark} from "react-icons/bs"
 import './App.css';
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <FaTwitter /><BsBookmark/>
         <a
           className="App-link"
           href="https://reactjs.org"

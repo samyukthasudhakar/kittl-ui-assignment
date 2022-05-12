@@ -1,0 +1,44 @@
+.arch-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arch-svg{
+    height: 4rem;
+    width: 18rem;
+    margin: 2rem;
+}
+  
+/* The slider itself */
+.slider {
+-webkit-appearance: none;  /* Override default CSS styles */
+appearance: none;
+width: 18rem;
+height: 4px; 
+background: #d3d3d3; /* Grey background */
+outline: none; /* Remove outline */
+opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+-webkit-transition: .2s; /* 0.2 seconds transition on hover */
+transition: opacity .2s;
+border-radius: 2px;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 14px;
+height: 14px;
+border-radius: 50%; 
+background: grey;
+cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background: grey;
+cursor: pointer;
+}

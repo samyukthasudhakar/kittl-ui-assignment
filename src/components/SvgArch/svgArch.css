@@ -1,3 +1,10 @@
+canvas{
+    width: 50% !important ;
+    height: 15rem !important;
+    display: none;
+    
+}
+
 .arch-container{
     display: flex;
     flex-direction: column;
@@ -6,9 +13,7 @@
 }
 
 .arch-svg{
-    height: 4rem;
-    width: 18rem;
-    margin: 2rem;
+    transform: scale(0.15);
 }
   
 /* The slider itself */
@@ -23,6 +28,7 @@ opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
 -webkit-transition: .2s; /* 0.2 seconds transition on hover */
 transition: opacity .2s;
 border-radius: 2px;
+margin: 1rem;
 }
 
 .slider::-webkit-slider-thumb {
@@ -41,4 +47,8 @@ height: 14px;
 border-radius: 50%;
 background: grey;
 cursor: pointer;
+}
+
+.slider:hover {
+opacity: 1; /* Fully shown on mouse-over */
 }

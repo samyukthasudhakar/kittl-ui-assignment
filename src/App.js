@@ -4,7 +4,7 @@ import Card from 'components/Card'
 function App() {
   return (
     <div className="App">
-      <h1 className="header" style={{color:"#00c19c"}}>Kittl UI Assignment</h1>
+      <h1 className='header text-accent'>Kittl UI Assignment</h1>
       <div className='card-container'>
         <Card 
         heading="Part - 1" 
@@ -18,7 +18,7 @@ function App() {
         />
       </div>
       <div className='footer'>
-          <span>made with ❤️ by  <a style={{color:"#00c19c"}} href="https://github.com/samyukthasudhakar">Samyuktha Sudhakar</a></span>
+          <span>made with ❤️ by  <a className='text-accent' href="https://github.com/samyukthasudhakar">Samyuktha Sudhakar</a></span>
       </div>
     </div>
   );

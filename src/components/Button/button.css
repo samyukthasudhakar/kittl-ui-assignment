@@ -2,7 +2,11 @@
 
 :root{
     --clr-primary : #BA985D;
-    --secondary-clr : #D4B57F;
+    --clr-secondary : #D4B57F;
+    --clr-teritiary : #FFFBF5;
+    --clr-grey : #979797;
+    --clr-grey-1 : #E2E2E2;
+    --clr-grey-2 : #EFEFEF;
     --clr-white: #FFFFFF;
 }
 
@@ -35,16 +39,17 @@ body {
 }
 
 .button-secondary:hover{
-    background-color: #FFFBF5;
+    background-color: var(--clr-teritiary);
 }
 
 .button:disabled{
-    background-color: #E2E2E2;
-    color: #979797;
+    background-color: var(--clr-grey-1);
+    color: var(--clr-grey);
 }
 
 .button-secondary:disabled{
-    border: solid 1.4px #979797;
+    border: solid 1.4px var(--clr-grey);
+    background-color: var(--clr-grey-2);
 }
 
 .padding-left{

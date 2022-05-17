@@ -1,34 +1,33 @@
-canvas{
-    width: 50% !important ;
-    height: 15rem !important;
-    display: none;
-    
-}
-
-.arch-container{
+.img-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
 }
 
-.arch-svg{
+.img{
     transform: scale(0.15);
+    position: fixed;
+    right: -300px;
 }
   
-/* The slider itself */
+
 .slider {
--webkit-appearance: none;  /* Override default CSS styles */
+-webkit-appearance: none;
 appearance: none;
-width: 18rem;
+width: 20rem;
 height: 4px; 
-background: #d3d3d3; /* Grey background */
-outline: none; /* Remove outline */
-opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
--webkit-transition: .2s; /* 0.2 seconds transition on hover */
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
 transition: opacity .2s;
 border-radius: 2px;
 margin: 1rem;
+position: relative;
+top : 10rem;
+left: 20rem;
 }
 
 .slider::-webkit-slider-thumb {
@@ -50,5 +49,5 @@ cursor: pointer;
 }
 
 .slider:hover {
-opacity: 1; /* Fully shown on mouse-over */
+opacity: 1;
 }

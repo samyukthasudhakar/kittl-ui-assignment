@@ -1,0 +1,27 @@
+:root{
+    --clr-green : #0cc19c;
+}
+
+.card{
+    width: 20rem;
+    border-radius: 7px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card-link{
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    color: var(--clr-green);
+    border-radius: 3px;
+    border: solid 1px var(--clr-green);
+    margin: 1.5rem;
+    display: inline-block;
+}
+
+.card-link:hover{
+    color: #ffffff;
+    background-color: var(--clr-green);
+}

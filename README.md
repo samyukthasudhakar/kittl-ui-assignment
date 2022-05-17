@@ -18,4 +18,5 @@ Create a simple UI with the rendered svg image and a slider beneath to control t
 
 Demo : [Storybook Component](https://static-ui-storybook.netlify.app/?path=/story/arc-transformation--arc-transformation-for-svg)
 
-No frameworks have been used. Arc transformation has been done with Javascript using React.
+Approach : Implemented arc tranformation by drawing the image pixel by pixel and by applying a offset on the Y axis.
+No frameworks have been used. Done purely with Javascript using React.

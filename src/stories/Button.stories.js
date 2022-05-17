@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'components/Button'
+import {FaRegBookmark} from 'react-icons/fa'
 
 export default {
   title: 'Button',
@@ -24,7 +25,7 @@ export const Primary_Button = ButtonTemplate.bind({})
 Primary_Button.args = {text:'Button', theme:"button-primary",disable:false,caret:false}
 
 export const Primary_Button_with_Icon = ButtonTemplate.bind({})
-Primary_Button_with_Icon.args = {text:'Button', theme:"button-primary", icon:"true"}
+Primary_Button_with_Icon.args = {text:'Button', theme:"button-primary", icon:<FaRegBookmark className='padding-right'/>}
 
 export const Primary_Button_with_Caret = ButtonTemplate.bind({})
 Primary_Button_with_Caret.args = {text:'Button', theme:"button-primary", caret:"true"}
@@ -33,7 +34,7 @@ export const Secondary_Button = ButtonTemplate.bind({})
 Secondary_Button.args = {text:'Button', theme:"button-secondary"}
 
 export const Secondary_Button_with_Icon = ButtonTemplate.bind({})
-Secondary_Button_with_Icon.args = {text:'Button', theme:"button-secondary", icon:"true"}
+Secondary_Button_with_Icon.args = {text:'Button', theme:"button-secondary", icon:<FaRegBookmark className='padding-right'/>}
 
 export const Secondary_Button_with_Caret = ButtonTemplate.bind({})
 Secondary_Button_with_Caret.args = {text:'Button', theme:"button-secondary", caret:"true"}

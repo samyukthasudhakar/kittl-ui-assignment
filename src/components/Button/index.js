@@ -4,8 +4,8 @@ import './button.css'
 
 function Button ( {text, icon='', disable=false, theme, caret=false} ) {
     return (
-        <button className={`button ${theme ?? theme}`} disabled={disable}>
-            {icon && <FaRegBookmark className='padding-right' />}
+        <button className={`button ${theme && theme}`} disabled={disable}>
+            {icon && icon}
             <span>{text}</span>
             {caret && <FaAngleRight className="padding-left"/>}
         </button>

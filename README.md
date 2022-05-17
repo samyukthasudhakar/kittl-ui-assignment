@@ -13,8 +13,15 @@ Implement a Button component and a set of Storybook stories that reflect its dif
 
 Demo : [Storybook Component](https://static-ui-storybook.netlify.app/?path=/story/button--primary-button)
 
+Related Files :
+- [Button.js](https://github.com/samyukthasudhakar/kittl-ui-assignment/blob/main/src/components/Button/index.js)
+- [Button.stories.js](https://github.com/samyukthasudhakar/kittl-ui-assignment/blob/main/src/stories/Button.stories.js)
+
 ## Part2
 Create a simple UI with the rendered svg image and a slider beneath to control the strength of the Arch effect.
+- [SvgArc.js](https://github.com/samyukthasudhakar/kittl-ui-assignment/blob/main/src/components/SvgArc/index.js)
+- [ArcTransformation.stories.js](https://github.com/samyukthasudhakar/kittl-ui-assignment/blob/main/src/stories/ArcTransofrmation.stories.js)
+- [warpImage.js](https://github.com/samyukthasudhakar/kittl-ui-assignment/blob/main/src/utils/warpImage.js)
 
 Demo : [Storybook Component](https://static-ui-storybook.netlify.app/?path=/story/arc-transformation--arc-transformation-for-svg)
 

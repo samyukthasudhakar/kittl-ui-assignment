@@ -1,6 +1,5 @@
 import React, { useRef, useState} from 'react';
 
-
 import { warpImage } from 'utils/warpImage';
 import './svgArc.css'
 
@@ -11,6 +10,11 @@ export default function SvgArc({ imageSrc }){
     const [warpAmount, setWarpAmount ] = useState(0)
 
     function changeArcStrength(e){
+        /*
+        When arc strength value is changed, an image warped based on the 
+        arc strength value is obtained and updated in the UI in place of the 
+        display image
+        */
         setWarpAmount(e.target.value)
         let image_to_warp = new Image()
         image_to_warp.onload = function () {

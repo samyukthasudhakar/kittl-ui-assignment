@@ -28,7 +28,7 @@ export const Primary_Button_with_Icon = ButtonTemplate.bind({})
 Primary_Button_with_Icon.args = {text:'Button', theme:"button-primary", icon:<FaRegBookmark className='padding-right'/>}
 
 export const Primary_Button_with_Caret = ButtonTemplate.bind({})
-Primary_Button_with_Caret.args = {text:'Button', theme:"button-primary", caret:"true"}
+Primary_Button_with_Caret.args = {text:'Button', theme:"button-primary", caret:true}
 
 export const Primary_Button_Disabled = ButtonTemplate.bind({})
 Primary_Button_Disabled.args = {text:'Button', theme:"button-primary", disable:true}
@@ -40,7 +40,7 @@ export const Secondary_Button_with_Icon = ButtonTemplate.bind({})
 Secondary_Button_with_Icon.args = {text:'Button', theme:"button-secondary", icon:<FaRegBookmark className='padding-right'/>}
 
 export const Secondary_Button_with_Caret = ButtonTemplate.bind({})
-Secondary_Button_with_Caret.args = {text:'Button', theme:"button-secondary", caret:"true"}
+Secondary_Button_with_Caret.args = {text:'Button', theme:"button-secondary", caret:true}
 
 export const Secondary_Button_Disabled = ButtonTemplate.bind({})
 Secondary_Button_Disabled.args = {text:'Button', theme:"button-secondary", disable:true}

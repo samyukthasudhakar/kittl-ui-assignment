@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root{
+    --clr-primary : #BA985D;
+    --secondary-clr : #D4B57F;
+    --clr-white: #FFFFFF;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -14,18 +20,18 @@ body {
 }
 
 .button-primary{
-    background-color: #BA985D;
-    color: #FFFFFF;
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
 }
 
 .button-secondary{
     background-color: transparent;
-    border: solid 1.4px #BA985D;
-    color: #BA985D;
+    border: solid 1.4px var(--clr-primary);
+    color: var(--clr-primary);
 }
 
 .button-primary:hover{
-    background-color: #D4B57F;
+    background-color: var(--clr-secondary);
 }
 
 .button-secondary:hover{

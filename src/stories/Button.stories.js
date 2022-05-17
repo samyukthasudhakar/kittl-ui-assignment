@@ -30,6 +30,9 @@ Primary_Button_with_Icon.args = {text:'Button', theme:"button-primary", icon:<Fa
 export const Primary_Button_with_Caret = ButtonTemplate.bind({})
 Primary_Button_with_Caret.args = {text:'Button', theme:"button-primary", caret:"true"}
 
+export const Primary_Button_Disabled = ButtonTemplate.bind({})
+Primary_Button_Disabled.args = {text:'Button', theme:"button-primary", disable:true}
+
 export const Secondary_Button = ButtonTemplate.bind({})
 Secondary_Button.args = {text:'Button', theme:"button-secondary"}
 
@@ -38,3 +41,6 @@ Secondary_Button_with_Icon.args = {text:'Button', theme:"button-secondary", icon
 
 export const Secondary_Button_with_Caret = ButtonTemplate.bind({})
 Secondary_Button_with_Caret.args = {text:'Button', theme:"button-secondary", caret:"true"}
+
+export const Secondary_Button_Disabled = ButtonTemplate.bind({})
+Secondary_Button_Disabled.args = {text:'Button', theme:"button-secondary", disable:true}

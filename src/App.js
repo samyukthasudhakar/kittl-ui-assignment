@@ -9,12 +9,12 @@ function App() {
         <Card 
         heading="Part - 1" 
         content="Implement a Button component and a set of Storybook stories that reflect its different possible states."
-        link="https://static-ui-storybook.netlify.app/?path=/story/arc-transformation--arc-transformation-for-svg"
+        link="https://static-ui-storybook.netlify.app/?path=/story/button--primary-button"
         />
         <Card 
         heading="Part - 2"
         content="Create a simple UI with the rendered svg image and a slider beneath to control the strength of the Arch effect."
-        link="https://static-ui-storybook.netlify.app/?path=/story/button--primary-button"
+        link="https://static-ui-storybook.netlify.app/?path=/story/arc-transformation--arc-transformation-for-svg"
         />
       </div>
       <div className='footer'>

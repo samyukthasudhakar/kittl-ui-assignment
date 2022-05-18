@@ -17,9 +17,9 @@
     padding: 8px 16px;
     cursor: pointer;
     border: solid 1.4px transparent;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif !important;
     font-style: normal;
-    font-weight: 547;
+    font-weight: 547 !important;
     font-size: 14.3px;
 }
 

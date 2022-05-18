@@ -15,6 +15,9 @@ export default {
     },
     caret:{
       control: 'boolean'
+    },
+    onClick : {
+      action: 'Button clicked' 
     }
   }
 };

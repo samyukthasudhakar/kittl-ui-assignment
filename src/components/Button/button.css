@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 :root{
     --clr-primary : #BA985D;
     --clr-secondary : #D4B57F;
@@ -10,10 +8,6 @@
     --clr-white: #FFFFFF;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-}
-
 .button{
     border: none;
     border-radius : 5px;
@@ -21,6 +15,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8px 16px;
+    cursor: pointer;
+    border: solid 1.4px transparent;
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: 547 !important;
+    font-size: 14.3px;
 }
 
 .button-primary{
@@ -30,7 +30,7 @@ body {
 
 .button-secondary{
     background-color: transparent;
-    border: solid 1.4px var(--clr-primary);
+    border-color: var(--clr-primary);
     color: var(--clr-primary);
 }
 
@@ -45,11 +45,13 @@ body {
 .button:disabled{
     background-color: var(--clr-grey-1);
     color: var(--clr-grey);
+    cursor: auto;
 }
 
 .button-secondary:disabled{
-    border: solid 1.4px var(--clr-grey);
+    border-color: var(--clr-grey);
     background-color: var(--clr-grey-2);
+    cursor: auto;
 }
 
 .padding-left{

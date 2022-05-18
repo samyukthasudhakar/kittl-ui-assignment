@@ -22,6 +22,7 @@ body {
     align-items: center;
     padding: 8px 16px;
     cursor: pointer;
+    border: solid 1.4px transparent;
 }
 
 .button-primary{
@@ -31,7 +32,7 @@ body {
 
 .button-secondary{
     background-color: transparent;
-    border: solid 1.4px var(--clr-primary);
+    border-color: var(--clr-primary);
     color: var(--clr-primary);
 }
 
@@ -49,7 +50,7 @@ body {
 }
 
 .button-secondary:disabled{
-    border: solid 1.4px var(--clr-grey);
+    border-color: var(--clr-grey);
     background-color: var(--clr-grey-2);
 }
 

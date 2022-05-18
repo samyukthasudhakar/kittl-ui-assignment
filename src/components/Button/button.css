@@ -21,6 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8px 16px;
+    cursor: pointer;
 }
 
 .button-primary{

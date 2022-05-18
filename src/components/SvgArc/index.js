@@ -26,13 +26,13 @@ export default function SvgArc({ imageSrc }){
     },[warpAmount])
 
     return(
-        <div>
+        <>
             <div className="img-container">
                 <img src={imageSrc} ref={imgRef} className="img"/>
                 <canvas id="canvas" ref={canvasRef} style={{display:"none"}}></canvas>
             </div>
             <input className="slider" onChange={(e)=>setWarpAmount(e.target.value)} type="range" defaultValue="1" min="0" max="2" step="0.01" />
-        </div>
+        </>
 
     )
 }

@@ -2,9 +2,9 @@ import PropTypes from "prop-types"
 import {FaAngleRight, FaRegBookmark} from 'react-icons/fa'
 import './button.css'
 
-function Button ( {text, icon='', disable=false, theme, caret=false} ) {
+function Button ( {text, icon='', disable=false, theme, caret=false, onClick} ) {
     return (
-        <button className={`button ${theme && theme}`} disabled={disable}>
+        <button onClick={onClick} className={`button ${theme && theme}`} disabled={disable}>
             {icon && icon}
             <span>{text}</span>
             {caret && <FaAngleRight className="padding-left"/>}
@@ -17,7 +17,8 @@ Button.prototypes = {
     icon: PropTypes.node,
     disable: PropTypes.bool,
     theme: PropTypes.string,
-    caret: PropTypes.bool
+    caret: PropTypes.bool,
+    onClick: PropTypes.func
 }
 
 export default Button;
